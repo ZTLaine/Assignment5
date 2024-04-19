@@ -20,7 +20,6 @@ public class CustomArrayList<T> implements CustomList<T> {
                 for (int i = 0; i <= numOfItems - 1; i++) {
                     items[i] = tempItems[i];
                 }
-
                 items[numOfItems] = item;
                 numOfItems++;
             }
@@ -50,5 +49,4 @@ public class CustomArrayList<T> implements CustomList<T> {
             }
         }
     }
-
 }
