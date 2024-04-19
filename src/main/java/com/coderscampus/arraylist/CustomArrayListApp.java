@@ -18,7 +18,7 @@ public class CustomArrayListApp {
 
 
         System.out.println("Number of items: " + test.getSize());
-        System.out.println(test.get(71).);
+        System.out.println(test.get(71));
 
     }
 
