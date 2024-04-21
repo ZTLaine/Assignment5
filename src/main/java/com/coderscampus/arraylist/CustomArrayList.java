@@ -23,8 +23,11 @@ public class CustomArrayList<T> implements CustomList<T> {
                 items[numOfItems] = item;
                 numOfItems++;
             }
+            return true;
         }
-        return false;
+        else{
+            return false;
+        }
     }
 
     @Override
